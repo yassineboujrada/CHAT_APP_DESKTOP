@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane prefHeight="71.0" prefWidth="249.0" style="-fx-background-color: #6785ff;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label layoutX="88.0" layoutY="24.0" prefHeight="21.0" prefWidth="163.0" style="-fx-text-fill: #f4f5fd;" text="Usename">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="52.0" fitWidth="62.0" layoutX="23.0" layoutY="8.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@IMAGES/user.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="208.0" layoutY="46.0" prefHeight="21.0" prefWidth="42.0" style="-fx-text-fill: #f4f5fd;" text="20:01">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+   </children>
+</Pane>
